@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
+
+main {
+  background: radial-gradient(circle, rgb(237, 232, 232) 0%, rgba(193, 191, 191, 0.8828781513) 44%, rgb(237, 232, 232) 100%);
+}
+
+.section-container .juguetes, .section-container .Colchones, .section-container .comederos {
+  display: flex;
+  justify-content: space-between;
+}
+.section-container .juguetes .card, .section-container .Colchones .card, .section-container .comederos .card {
+  margin: 20px;
+  width: auto;
+  border: solid rgba(136, 118, 118, 0.409);
+  border-radius: 10%;
+}
+.section-container .juguetes .card .card-header, .section-container .Colchones .card .card-header, .section-container .comederos .card .card-header {
+  text-align: center;
+  padding: 10px;
+}
+.section-container .juguetes .card .card-body, .section-container .Colchones .card .card-body, .section-container .comederos .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-container .juguetes .card .card-body p, .section-container .Colchones .card .card-body p, .section-container .comederos .card .card-body p {
+  text-align: center;
+}
+.section-container .juguetes .card .card-body .button, .section-container .Colchones .card .card-body .button, .section-container .comederos .card .card-body .button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main {
+  background: radial-gradient(circle, rgb(237, 232, 232) 0%, rgba(193, 191, 191, 0.8828781513) 44%, rgb(237, 232, 232) 100%);
+}
+
+.section-container .juguetes, .section-container .Colchones, .section-container .comederos {
+  display: flex;
+  justify-content: space-between;
+}
+.section-container .juguetes .card, .section-container .Colchones .card, .section-container .comederos .card {
+  margin: 20px;
+  width: 180px;
+  border: solid rgba(136, 118, 118, 0.409);
+  border-radius: 10%;
+}
+.section-container .juguetes .card .card-header, .section-container .Colchones .card .card-header, .section-container .comederos .card .card-header {
+  text-align: center;
+  padding: 10px;
+}
+.section-container .juguetes .card .card-body, .section-container .Colchones .card .card-body, .section-container .comederos .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-container .juguetes .card .card-body p, .section-container .Colchones .card .card-body p, .section-container .comederos .card .card-body p {
+  text-align: center;
+}
+.section-container .juguetes .card .card-body .button, .section-container .Colchones .card .card-body .button, .section-container .comederos .card .card-body .button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main .sectionPrincipal {
+  background-image: url(../../asset/iniciopelu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+}
+main .sectionPrincipal h1 {
+  text-align: center;
+  padding: 50px;
+}
+main .texto {
+  text-align: center;
+}
+main .servicios {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+main .servicios img {
+  border-radius: 50%;
+  width: 200px;
+}
+main .servicios h3 {
+  text-align: center;
+}
+
+footer {
+  background: linear-gradient(90deg, rgb(249, 243, 243) 0%, rgba(17, 16, 16, 0.8828781513) 35%, rgb(249, 243, 243) 100%);
+  display: flex;
+  justify-content: space-between;
+}
+footer .navFooter {
+  display: flex;
+  gap: 40px;
+}
+footer .navFooter li {
+  list-style: none;
+  padding-top: 20px;
+}
+footer .navFooter li a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+footer .navFooter li a:hover {
+  color: crimson;
+}
+footer .logoFooter {
+  padding: 10px;
+}
+footer .imgFooter {
+  width: 50px;
+  padding: auto;
+}
+footer .redes {
+  padding: 10px;
+}
+
+header {
+  background: linear-gradient(90deg, rgb(10, 10, 0) 0%, rgba(103, 101, 99, 0.7344187675) 35%, rgb(249, 243, 243) 100%);
+  display: flex;
+  justify-content: space-between;
+}
+header .navBar {
+  list-style: none;
+  text-align: center;
+}
+header .navBar li {
+  display: inline-flex;
+}
+header .navBar li a {
+  text-decoration: none;
+  padding: 30px 70px;
+  color: white;
+  font-size: larger;
+}
+header .navBar li a:hover {
+  color: crimson;
+}
+header .imgHeader {
+  padding: 20px;
+}
+header .imgHeader img {
+  width: 50px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+}
+.carousel-item h3 {
+  font-size: xx-large;
+  color: whitesmoke;
+}
+.carousel-item h3:hover {
+  color: rgb(6, 98, 236);
+}
+.carousel-item h2 {
+  font-size: xx-large;
+  color: black;
+}
+.carousel-item h2:hover {
+  color: rgb(6, 98, 236);
+}
+
+.NuestrosProductos {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
+
+.button {
+  background-color: rgb(144, 140, 140);
+  padding: 10px 30px;
+  border: solid rgb(89, 89, 91);
+  border-radius: 10%;
+  color: white;
+}
+.button:hover {
+  background-color: rgb(109, 109, 251);
+}
+
+/*# sourceMappingURL=style.css.map */

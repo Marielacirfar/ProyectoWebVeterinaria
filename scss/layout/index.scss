@@ -1,0 +1,31 @@
+.carousel-item {
+    img{
+        width: 100%;
+        height: 600px;
+        
+    }
+    h3{
+        font-size: xx-large;
+        color: whitesmoke;
+        &:hover{
+            color: rgb(6, 98, 236);
+        }
+    }
+    h2{
+        font-size: xx-large;
+        color: black;
+        &:hover{
+            color: rgb(6, 98, 236);
+        }
+    }
+    
+}
+.NuestrosProductos{
+    text-align: center;
+}
+.card{
+    img{
+        width: 100%;
+        height: 200px;
+    }
+}
