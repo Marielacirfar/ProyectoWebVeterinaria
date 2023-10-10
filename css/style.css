@@ -75,8 +75,12 @@ main .sectionPrincipal {
   height: 600px;
 }
 main .sectionPrincipal h1 {
-  text-align: center;
-  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  padding-left: 280px;
+  padding-top: 400px;
+  color: rgba(255, 255, 255, 0.746);
+  text-shadow: 1px 0px 0px black, 0px 2px 0px rgb(38, 37, 37), -2px 0px 0px rgb(38, 37, 37), 0px -2px 0px rgb(38, 37, 37);
 }
 main .texto {
   text-align: center;
@@ -87,8 +91,15 @@ main .servicios {
   padding: 20px 10px;
 }
 main .servicios img {
+  border: solid rgba(223, 1, 1, 0.0784313725);
+  background-color: rgba(171, 171, 171, 0.432);
   border-radius: 50%;
   width: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+main .servicios img:hover {
+  border: solid 0.625rem rgba(223, 1, 1, 0.0235294118);
 }
 main .servicios h3 {
   text-align: center;

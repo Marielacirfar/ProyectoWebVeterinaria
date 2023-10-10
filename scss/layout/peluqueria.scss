@@ -7,8 +7,19 @@ main{
         width: 100%;
         height: 600px;
         h1{
-            text-align: center;
-            padding: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: xx-large;
+            //text-align: center;
+            padding-left: 280px;
+            padding-top: 400px;
+            color: rgba(255, 255, 255, 0.746);
+            text-shadow: 1px  0px 0px black,
+               0px  2px 0px rgb(38, 37, 37),
+              -2px  0px 0px rgb(38, 37, 37),
+               0px -2px 0px rgb(38, 37, 37);
+            &:hover{
+                
+            }
         }
         
     }
@@ -23,8 +34,15 @@ main{
         
 
         img{
+            border: solid #df010114;
+            background-color: rgba(171, 171, 171, 0.432);
+            &:hover{
+                border: solid .625rem #df010106;
+            }
             border-radius: 50%;
             width: 200px;
+            padding-left: 30px;
+            padding-right: 30px;
         }
         h3{
             text-align: center;
